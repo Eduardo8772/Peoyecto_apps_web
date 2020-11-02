@@ -1,0 +1,9 @@
+<div class="center">
+  <img id="logo" src="assets/logogreen.png">
+  <h1 i18n="greeting2">Hola {{name}}!</h1>
+  <input [(ngModel)]="name" i18n-placeholder="user" placeholder="Usuario">
+  <input i18n-placeholder="password" placeholder="Password" type="password">
+  <a>Olvidaste tu contraseña?</a>
+  <app-button (click)="validateSign" [buttonConfig]="LoginButtonConfig"></app-button>
+  <app-button [buttonConfig]="SignUpButtonConfig"></app-button>
+</div>

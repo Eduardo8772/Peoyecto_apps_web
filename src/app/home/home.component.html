@@ -1,0 +1,13 @@
+<app-header></app-header>
+<div class="center ">
+  <h1 i18n="greeting">Hola de nuevo!</h1>
+  <h2 i18n="refuse">Tienes más desechos?</h2>
+  <h3 i18n="choose categ">Selecciona la categoría</h3>
+  <main class="center">
+    <div class="bookshelf">
+      <div *ngFor="let categ of categories" i18n>
+        <app-category [categoryConfig]="categ"></app-category>
+      </div>
+    </div>
+  </main>
+</div>

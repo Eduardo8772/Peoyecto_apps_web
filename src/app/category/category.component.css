@@ -1,0 +1,24 @@
+img {
+  width: 3em;
+  height: auto;
+}
+
+p {
+  text-align: center;
+  font-size: 11px;
+  max-width: 90%;
+}
+
+.center {
+  margin: 1em;
+}
+
+.category-item {
+  max-width: 3em;
+  width: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
